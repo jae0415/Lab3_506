@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/map_types"
+        android:title="Select map type"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/normal_map"
+                android:title="Normal map"/>
+            <item android:id="@+id/satellite_map"
+                android:title="Satellite map"/>
+            <item android:id="@+id/terrain_map"
+                android:title="Terrain map"/>
+            <item android:id="@+id/hybrid_map"
+                android:title="Hybrid map"/>
+        </menu>
+   </item>
+    <item android:id="@+id/Extra"
+        android:title="Extra"
+        app:showAsAction="always">
+        <menu>
+            <group>
+            <item android:id="@+id/traff"
+                android:title="Traffic"/>
+                <item android:id="@+id/indoor"
+                    android:title="In Door"/>
+                <item android:id="@+id/building"
+                    android:title="3D Building"/>
+            </group>
+        </menu>
+</item>
+</menu>
